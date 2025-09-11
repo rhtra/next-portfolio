@@ -67,7 +67,7 @@ export const experiences: ExperienceInterface[] = [
   {
     id: "felix",
     position: "Senior React Developer to Team Lead",
-    company: "Felix Vendor Marketplace",
+    company: "Felix",
     location: "Australia (Remote)",
     startDate: new Date("2019-11-01"),
     endDate: new Date("2023-03-31"),
