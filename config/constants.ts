@@ -65,7 +65,8 @@ export type ValidSkills =
   | ".NET"
   | "Salesforce"
   | "MsSQL"
-  | "Wordpress";
+  | "Wordpress"
+  | "CodeIgniter";
 
 export type ValidCategory =
   | "Full Stack"
