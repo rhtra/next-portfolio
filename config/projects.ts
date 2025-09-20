@@ -74,7 +74,7 @@ export const Projects: ProjectInterface[] = [
       "AWS",
     ],
     startDate: new Date("2023-07-01"),
-    endDate: new Date("2024-09-01"),
+    endDate: new Date("2024-12-31"),
     companyLogoImg: "/projects/coral/logo.png",
     descriptionDetails: {
       paragraphs: [

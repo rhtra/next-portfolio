@@ -46,7 +46,7 @@ export const experiences: ExperienceInterface[] = [
     company: "Coral Active",
     location: "Australia (Remote)",
     startDate: new Date("2023-07-01"),
-    endDate: new Date("2024-10-30"),
+    endDate: new Date("2024-12-31"),
     description: [
       "Developed widgets on the system supporting chats, e-mails and calls",
       "Partnered with different clients such as Fidelity, Das Kann Bank and AT&T for various requirements and features",
