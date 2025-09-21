@@ -301,41 +301,177 @@ export const Projects: ProjectInterface[] = [
       ],
     },
   },
-  // {
-  //   id: "marj-arsolon",
-  //   companyName: "Marj Arsolon Accountant Site",
-  //   type: "Personal",
-  //   category: ["Web Dev", "UI/UX", "Frontend"],
-  //   shortDescription:
-  //     "Developed a user-friendly website for my partner that serves as her portfolio and information",
-  //   websiteLink: "https://marj-arsolon.netlify.app/",
-  //   githubLink: "https://github.com/rhtra/accountant-portfolio",
-  //   techStack: ["React", "CSS 3"],
-  //   startDate: new Date("2024-05-24"),
-  //   endDate: new Date("2024-05-24"),
-  //   companyLogoImg: "/projects/logo.png",
-  //   pagesInfoArr: [
-  //     {
-  //       title: "",
-  //       description: "",
-  //       imgArr: ["/projects/"],
-  //     },
-  //     {
-  //       title: "",
-  //       description:
-  //         "",
-  //       imgArr: [
-  //         "",
-  //         "",
-  //       ],
-  //     },
-  //   ],
-  //   descriptionDetails: {
-  //     paragraphs: [],
-  //     bullets: [],
-  //   },
-  // },
-  
+  {
+    id: "marj-arsolon",
+    companyName: "Marj Arsolon Accountant Site",
+    type: "Personal",
+    category: ["Web Dev", "UI/UX", "Frontend"],
+    shortDescription:
+      "Developed a user-friendly website for my partner that serves as her portfolio and information",
+    websiteLink: "https://marj-arsolon.netlify.app/",
+    githubLink: "https://github.com/rhtra/accountant-portfolio",
+    techStack: ["React", "CSS 3"],
+    startDate: new Date("2024-05-24"),
+    endDate: new Date("2024-05-24"),
+    companyLogoImg: "/personal/marj/logo.png",
+    // pagesInfoArr: [
+    //   {
+    //     title: "",
+    //     description: "",
+    //     imgArr: ["/projects/"],
+    //   },
+    //   {
+    //     title: "",
+    //     description:
+    //       "",
+    //     imgArr: [
+    //       "",
+    //       "",
+    //     ],
+    //   },
+    // ],
+    descriptionDetails: {
+      paragraphs: ["Personal website for Marj Arsolon, an accountant, showcasing her skills and hobbies"],
+      bullets: ["Developed using React"],
+    },
+  },
+  {
+    id: "snap-site",
+    companyName: "Snap Site",
+    type: "Personal",
+    category: ["Web Dev", "UI/UX", "Frontend"],
+    shortDescription:
+      "Developed a landing page for a dating site with registration page",
+    websiteLink: "https://snapsite-by-art.netlify.app/",
+    githubLink: "https://github.com/rhtra/bd-tech-assessment",
+    techStack: ["React", "CSS 3"],
+    startDate: new Date("2024-08-19"),
+    endDate: new Date("2024-08-19"),
+    companyLogoImg: "/personal/snapsite/logo.png",
+    // pagesInfoArr: [
+    //   {
+    //     title: "",
+    //     description: "",
+    //     imgArr: ["/projects/"],
+    //   },
+    //   {
+    //     title: "",
+    //     description:
+    //       "",
+    //     imgArr: [
+    //       "",
+    //       "",
+    //     ],
+    //   },
+    // ],
+    descriptionDetails: {
+      paragraphs: ["Landing page for a dating site with registration page with steps"],
+      bullets: ["Developed using React"],
+    },
+  },
+  {
+    id: "shift-scheduler",
+    companyName: "Shift Scheduler",
+    type: "Personal",
+    category: ["Web Dev", "UI/UX", "Frontend"],
+    shortDescription:
+      "Developed a web-based app utilizing react-scheduler",
+    websiteLink: "https://shift-scheduler-by-art.netlify.app/",
+    githubLink: "https://github.com/rhtra/react-scheduler/",
+    techStack: ["React"],
+    startDate: new Date("2023-05-15"),
+    endDate: new Date("2023-05-15"),
+    companyLogoImg: "/personal/scheduler/logo.png",
+    // pagesInfoArr: [
+    //   {
+    //     title: "",
+    //     description: "",
+    //     imgArr: ["/projects/"],
+    //   },
+    //   {
+    //     title: "",
+    //     description:
+    //       "",
+    //     imgArr: [
+    //       "",
+    //       "",
+    //     ],
+    //   },
+    // ],
+    descriptionDetails: {
+      paragraphs: [""],
+      bullets: ["Developed using React"],
+    },
+  },
+  {
+    id: "construction-ecommerce",
+    companyName: "Construction E-commerce",
+    type: "Personal",
+    category: ["Web Dev", "UI/UX", "Frontend"],
+    shortDescription:
+      "Developed an e-commerce for construction needs",
+    websiteLink: "https://github.com/rhtra/next-bolsterup-assessment",
+    githubLink: "https://github.com/rhtra/next-bolsterup-assessment",
+    techStack: ["React"],
+    startDate: new Date("2023-05-15"),
+    endDate: new Date("2023-05-15"),
+    companyLogoImg: "/personal/global-construction/logo.png",
+    // pagesInfoArr: [
+    //   {
+    //     title: "",
+    //     description: "",
+    //     imgArr: ["/projects/"],
+    //   },
+    //   {
+    //     title: "",
+    //     description:
+    //       "",
+    //     imgArr: [
+    //       "",
+    //       "",
+    //     ],
+    //   },
+    // ],
+    descriptionDetails: {
+      paragraphs: [""],
+      bullets: ["Developed using NextJS"],
+    },
+  },
+  {
+    id: "elegante-ecommerce",
+    companyName: "Elegante E-commerce",
+    type: "Personal",
+    category: ["Web Dev", "UI/UX", "Frontend"],
+    shortDescription:
+      "Developed an e-commerce for clothes",
+    websiteLink: "https://github.com/rhtra/elegante",
+    githubLink: "https://github.com/rhtra/elegante",
+    techStack: ["React"],
+    startDate: new Date("2025-02-14"),
+    endDate: new Date("2023-02-14"),
+    companyLogoImg: "/personal/elegante-commerce/logo.png",
+    // pagesInfoArr: [
+    //   {
+    //     title: "",
+    //     description: "",
+    //     imgArr: ["/projects/"],
+    //   },
+    //   {
+    //     title: "",
+    //     description:
+    //       "",
+    //     imgArr: [
+    //       "",
+    //       "",
+    //     ],
+    //   },
+    // ],
+    descriptionDetails: {
+      paragraphs: [""],
+      bullets: ["Developed using NextJS"],
+    },
+},
+
 ];
 
 export const featuredProjects = Projects.slice(0, 3);
